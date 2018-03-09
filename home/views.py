@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'199Fix', 'url': 'http://pypi.python.org/pypi/199Fix/1.1.2'},
     ]
     context = {
         'title': 'ivan-crowdbotics-15',
